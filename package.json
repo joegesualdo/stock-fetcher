@@ -1,6 +1,6 @@
 {
   "name": "stock-fetcher",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Fetch Stock Data",
   "main": "index.js",
   "scripts": {
