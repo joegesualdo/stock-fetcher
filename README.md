@@ -1,12 +1,12 @@
-##Stock Fetcher
+## Stock Fetcher
 > Fetch Stock Data
 
-##Install
+## Install
 ```
 $ npm install --save stock-fetcher 
 ```
 
-##Usage
+## Usage
 ```javascript
 var stockFetcher = require("stock-fetcher");
 
@@ -15,6 +15,6 @@ stockFetcher.getPrice("AAPL", function(err, price){
 });
 ```
 
-##API
+## API
 
-###.getPrice(error, callback(err, price))
+### .getPrice(error, callback(err, price))
