@@ -3,7 +3,7 @@
 
 ##Install
 ```
-$ npm install --save pageres
+$ npm install --save stock-fetcher 
 ```
 
 ##Usage
