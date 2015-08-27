@@ -1,10 +1,14 @@
 {
   "name": "stock-fetcher",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fetch Stock Data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/joegesualdo/stock-fetcher"
   },
   "author": "Joe Gesualdo",
   "license": "MIT",
