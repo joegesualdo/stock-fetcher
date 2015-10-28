@@ -17,4 +17,11 @@ stockFetcher.getPrice("AAPL", function(err, price){
 
 ## API
 
-### .getPrice(stockSymbol, callback(err, price))
+## `.getPrice(stockSymbol, callback(err, price))`
+```javascript
+var stockFetcher = require("stock-fetcher");
+
+stockFetcher.getPrice("AAPL", function(err, price){
+  console.log(price)
+});
+```
