@@ -22,5 +22,10 @@ function getPrice(symbol, callback) {
     callback(null, stockObject["LastPrice"])
   })
 }
+function getMarketCap(symbol, callback) {
+  getStockObject(symbol, function(err, stockObject){
+    callback(null, stockObject["MarketCap"])
+  })
+}
 
 exports.getPrice = getPrice;
